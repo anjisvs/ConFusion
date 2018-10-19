@@ -11,10 +11,26 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link href="css/styles.css" rel="stylesheet"
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+                <div class="container">
+                    <button class="navbar-toggler" type="botton" data-toggle="collapse" data-target="#Navbar">
+                        <span class="navbar-toggle-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="Navbar">
+                        <ul class="navbar-nav mr-auto">
+                               <li class="nav-item"><a class="navbar-brand" href="#">Ristorante Con Fusion</a></li>
+                               <li class="nav-item active"><a class="nav-link" href="#">Home</a></li> 
+                               <li class="nav-item"><a class="nav-link" href="#">About</a></li> 
+                               <li class="nav-item"><a class="nav-link" href="#">Menu</a></li> 
+                               <li class="nav-item"><a class="nav-link" href="#">Contact</a></li> 
+                        </ul>
+                    </div>
+                </div>
+        </nav>
 
     <header class="jumbotron">
         <div class="container">
@@ -32,6 +48,10 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
+                    <ol class="col-12 breadcrumb">
+                            <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                            <li class="breadcrumb-item active">About Us</li>
+                        </ol>
                <h3>About Us</h3>
                <hr>
             </div>
@@ -55,7 +75,7 @@
         </div>
         <div class="row row-history">
                 <div class="col-12 col-sm-4">             
-                <img src="CEO .JPG" class="col-sm-6 img-responsive">
+                <img src="CEO .JPG" class="container img-responsive">
                 <h3>Peter Pan</h3>
                 <p><small>Chief Epicurious Officer</small></p>
                 </div>
@@ -65,7 +85,7 @@
         </div>   
         <div class="row row-history">
             <div class="col-12 col-sm-4">       
-                <img src="CFO.JPG" class="col-sm-5 img-responsive">
+                <img src="CFO.JPG" class="container img-responsive">
                 <h3>Dhanasekaran Witherspoon </h3>
                 <p><small>Chief Food Officer</small></p>
             </div>
@@ -75,7 +95,7 @@
         </div>
         <div class="row row-history">
             <div class="col-12 col-sm-4">
-                <img src="CTO.JPG" class="col-sm-5 img-responsive">
+                <img src="CTO.JPG" class="container img-responsive">
                 <h3>Agumbe Tang</h3>
                 <p><small>Chief Taste Officer</small></p>
             </div>
@@ -85,7 +105,7 @@
         </div>
         <div class="row row-history">
             <div class="col-12 col-sm-4">
-                <img src="EC.JPG" class="col-sm-5 img-responsive">
+                <img src="EC.JPG" class="container img-responsive">
                 <h3>Alberto Somayya</h3> 
                 <p><small>Executive Chef</small></p>
             </div>
